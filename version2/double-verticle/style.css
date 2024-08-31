@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 40%;
+
+}
+
+.picture-text {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition:transform 0.3s ease-in-out;
+}
+
+.picture-text h2 {
+    font-weight: 500;
+}
+
+#sunset {
+    background-color: #FFB866;
+}
+
+#flower {
+    background-color: #FD3555;
+}
+
+#sky {
+    background-color: #2A86BA;
+}
+
+#castle {
+    background-color: #252E33;
+}
+
+.right-side {
+    width: 60%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    left: 40%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+   transition:transform 0.3s ease-in-out;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image.active{
+    transform: translateY(0);
+    opacity: 1;  
+}
+.image.down{
+    transform: translateY(100%);
+
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 38%;
+   gap: 10px;
+}
+.arrow-button{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.arrow-button.left{
+    transform: rotate(180deg);
+}
+

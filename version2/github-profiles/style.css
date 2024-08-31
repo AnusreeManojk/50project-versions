@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(37, 1, 121);
+    flex-direction: column;
+}
+
+input {
+    background-color: rgb(89, 6, 114);
+    color: #b4afaf;
+    width: 500px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.profile {
+    color: #fff;
+    display: flex;
+    background-color: rgb(81, 47, 136);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.proflie-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.proflie-left img {
+    border-radius: 50px;
+}
+
+.profile-right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+
+}
+
+li {
+    padding: 0 8px;
+}
+
+li:first-child {
+    padding-left: 0;
+}
+
+.repositories {
+    padding-top: 10px;
+}
+
+button {
+    background-color: rgb(89, 6, 114);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}

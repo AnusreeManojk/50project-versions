@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #3b3b98;
+    font-family: 'Muli', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+}
+
+.password{
+    background-color: #23235b;
+    width: 310px;
+    height: 330px;
+    padding: 20px;
+}
+.input{
+  background-color: #0c0c27;
+  padding: 5px;
+  justify-content: space-between;
+  display: flex;
+}
+.input input{
+  background-color: #0c0c27;
+  border: none;
+}
+.input input:focus{
+  outline: none;
+}
+.input button{
+  height: 100%;
+  background-color: #3b3b98;
+   border: none;
+   padding: 8px ;
+}
+.input button i{
+color: #fff;
+}
+
+

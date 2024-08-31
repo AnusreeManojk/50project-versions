@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.conatiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+canvas{
+    width: 50%;
+    height: 80%;
+    border:1px solid  steelblue;
+}
+
+.bottom-nav{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: steelblue;
+    align-items: center;
+    padding: 20px;
+}
+button{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+}
+input{
+    position: relative;
+    top: 5px;
+}
+span{
+    background-color: #fff;
+   padding: 10px;
+    font-size: 16px;
+}
+

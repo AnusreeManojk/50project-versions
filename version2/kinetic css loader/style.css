@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    background-color: #28283d;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+.kinetic{
+position: relative;
+height: 80px;
+width: 80px;
+}
+
