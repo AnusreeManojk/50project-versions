@@ -15,29 +15,35 @@
     <div class="password">
         <h2>Password Generator</h2>
         <div class="input">
-            <input type="text" name="" id="">
+            <input type="text" name="" id="password" style="color: #fff;">
             <button> <i class="far fa-clipboard"></i></button>
         </div>
         <div class="settings">
-            <label for="length"> Password Length</label>
-            <input type="number" name="length" id="length">
-
-            <label for="uppercase">Include uppercase letters</label>
-            <input type="checkbox" name="uppercase" id="uppercase">
-
-            <label for="lowercase">Include lowercase letters</label>
-            <input type="checkbox" name="lowercase" id="lowercase">
-
-            <label for="includNum">Include numbers</label>
-            <input type="checkbox" name="includNum" id="includNum">
-
-            <label for="symbols">Include symbols</label>
-            <input type="checkbox" name="symbols" id="symbols">
-
-            <button>Generator Password</button>
+            <div class="inputFirst">
+                <label for="length"> Password Length</label>
+                <input type="number" name="length" id="length">
+            </div>
+            <div>
+                <label for="uppercase">Include uppercase letters</label>
+                <input type="checkbox" name="uppercase" id="uppercase">
+            </div>
+            <div>
+                <label for="lowercase">Include lowercase letters</label>
+                <input type="checkbox" name="lowercase" id="lowercase">
+            </div>
+            <div>
+                <label for="includNum">Include numbers</label>
+                <input type="checkbox" name="includNum" id="includNum">
+            </div>
+            <div>
+                <label for="symbols">Include symbols</label>
+                <input type="checkbox" name="symbols" id="symbols">
+            </div>
+            <div>
+                <button id="button">Generator Password</button>
+            </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
-</html>
 
+</html>
